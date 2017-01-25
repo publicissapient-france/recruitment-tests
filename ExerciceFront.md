@@ -35,11 +35,11 @@ Le service enverra les offres applicables à ce panier sous le format JSON suiva
 Le prix attendu pour ce panier devra être 50€.
 
 #### Quelques explications
-La première offre identifiée par un type __‘percentage’__ est une réduction s’appliquant sur le prix de l’ensemble des livres. Le montant de la réduction est dans __‘value’__;
+* La première offre identifiée par un type __‘percentage’__ est une réduction s’appliquant sur le prix de l’ensemble des livres. Le montant de la réduction est dans __‘value’__;
 
-La deuxième offre identifiée par un type __‘minus’__ est une déduction directement applicable en caisse d’un montant de __‘value’__;
+* La deuxième offre identifiée par un type __‘minus’__ est une déduction directement applicable en caisse d’un montant de __‘value’__;
 
-La troisième offre identifiée par un type __‘slice’__ est un remboursement par tranche d’achat. Dans cet exemple, on rembourse 12€ par tranche de 100€ d’achat.
+* La troisième offre identifiée par un type __‘slice’__ est un remboursement par tranche d’achat. Dans cet exemple, on rembourse 12€ par tranche de 100€ d’achat.
 
 
 *Au-delà de « l’exercice imposé », toute idée originale supplémentaire sera appréciée.*
