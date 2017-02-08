@@ -1,7 +1,8 @@
-# Exercice Front-end : La bibliothèque de Henri Potier
+# Exercice Front-end : La bibliothèque d'Henri Potier
+
 ### L’énoncé
 
-> Il était une fois, une collection de cinq livres racontant les histoires d’un formidable héros nommé Henri Potier. Tous les enfants du monde trouvaient les histoires de cet adolescent fantastiques. L’éditeur de cette collection, dans un immense élan de générosité (mais aussi pour booster ses ventes :wink:), décida de mettre en place des offres commerciales aussi aléatoires que l’issue des sorts de Ron Weasley.
+> Il était une fois, une collection de cinq livres racontant les histoires d’un formidable héro nommé Henri Potier. Tous les enfants du monde trouvaient les histoires de cet adolescent fantastiques. L’éditeur de cette collection, dans un immense élan de générosité (mais aussi pour booster ses ventes :wink:), décida de mettre en place des offres commerciales aussi aléatoires que l’issue des sorts de Ron Weasley.
 
 L’éditeur vous demande de développer un site web de e-commerce comprenant deux interfaces :
 * La première permet d’afficher les livres que l’on souhaite acheter et d’effectuer une recherche libre
@@ -19,7 +20,7 @@ Les offres commerciales associées sont disponibles (depuis n’importe quel dom
 
 ### Un exemple
 
-#### Calcul
+#### Calcule
 Pour deux livres (à 35 et 30€), la requête ressemblera à : http://henri-potier.xebia.fr/books/c8fabf68-8374-48fe-a7ea-a00ccd07afff,a460afed-e5e7-4e39-a39d-c885c05db861/commercialOffers
 
 Le service enverra les offres applicables à ce panier sous le format JSON suivant :
