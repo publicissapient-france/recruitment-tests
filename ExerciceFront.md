@@ -20,7 +20,7 @@ Les offres commerciales associées sont disponibles (depuis n’importe quel dom
 
 ### Un exemple
 
-#### Calcule
+#### Calcul
 Pour deux livres (à 35 et 30€), la requête ressemblera à : http://henri-potier.xebia.fr/books/c8fabf68-8374-48fe-a7ea-a00ccd07afff,a460afed-e5e7-4e39-a39d-c885c05db861/commercialOffers
 
 Le service enverra les offres applicables à ce panier sous le format JSON suivant :
@@ -33,7 +33,7 @@ Le service enverra les offres applicables à ce panier sous le format JSON suiva
   ]
 }
 ```
-Le prix attendu pour ce panier devra être 50€.
+Dans cet exemple, la promotion la plus intéressante pour le client est la promotion de type 'minus', donc le prix du panier attendu est de `65€ - 15€`, soit `50€`.
 
 #### Quelques explications
 * La première offre identifiée par un type __‘percentage’__ est une réduction s’appliquant sur le prix de l’ensemble des livres. Le montant de la réduction est dans __‘value’__;
