@@ -36,7 +36,7 @@ Le service renverra les offres applicables à ce panier en `JSON` :
 }
 ```
 
-Le prix attendu pour ce panier devra être 50€.
+Dans cet exemple, la promotion la plus intéressante pour le client est la promotion de type `minus`, le prix du panier attendu est donc de `65€ - 15€`, soit `50€`.
 
 #### Explications
 
