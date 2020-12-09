@@ -13,15 +13,15 @@ Sachez que l’éditeur attachera une attention toute particulière à __la qual
 
 ### Les ressources
 
-La liste des livres Henri Potier est accessible à l’adresse http://henri-potier.xebia.fr/books en GET.
+La liste des livres Henri Potier est accessible à l’adresse https://henri-potier.techx.fr/books en GET.
 
-Les offres commerciales associées sont disponibles (depuis n’importe quel domaine) en GET à l’adresse suivante: http://<i></i>henri-potier.xebia.fr/books/{ISBN1, ISBN2, ...}/commercialOffers
+Les offres commerciales associées sont disponibles (depuis n’importe quel domaine) en GET à l’adresse suivante: https://<i></i>henri-potier.techx.fr/books/{ISBN1, ISBN2, ...}/commercialOffers
 &nbsp;
 
 ### Un exemple
 
 #### Calcul
-Pour deux livres (à 35 et 30€), la requête ressemblera à : http://henri-potier.xebia.fr/books/c8fabf68-8374-48fe-a7ea-a00ccd07afff,a460afed-e5e7-4e39-a39d-c885c05db861/commercialOffers
+Pour deux livres (à 35 et 30€), la requête ressemblera à : https://henri-potier.techx.fr/books/c8fabf68-8374-48fe-a7ea-a00ccd07afff,a460afed-e5e7-4e39-a39d-c885c05db861/commercialOffers
 
 Le service enverra les offres applicables à ce panier sous le format JSON suivant :
 ```json
