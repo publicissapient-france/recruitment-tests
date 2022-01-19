@@ -1,0 +1,56 @@
+.card {
+  border: 0.1rem solid #d8d8d8;
+  border-bottom-width: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 13rem;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.card > .image > img {
+  max-width: 100%;
+}
+
+.card > .title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.card > .price {
+  color: lightseagreen;
+  margin: 1rem;
+  text-align: right;
+  font-size: 1.4rem;
+}
+
+.card > button {
+  background: #1b2844;
+  padding: 1rem;
+  color: white;
+  border: 0;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.7s;
+  border: 3px solid transparent;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card > button:hover {
+  background: white;
+  border: 3px solid #1b2844;
+  padding: 1rem;
+  color: #1b2844;
+  border-radius: 0.2rem;
+  font-size: 1.3rem;
+  width: 100%;
+}
