@@ -1,0 +1,67 @@
+.cart-details-body {
+  margin: 1rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-details-body > h1 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.cart-details {
+  border: 1px solid #f2e8e9;
+  padding: 1rem;
+  border-bottom-width: 0.5rem;
+  border-radius: 0.5rem;
+  min-width: 30rem;
+  max-width: 30rem;
+  margin-top: 2rem;
+}
+
+.book-desc {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #f2e8e9;
+}
+
+.card-footer {
+  margin-top: 5rem;
+  background: #f2e8e9;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+h2 {
+  letter-spacing: 1px;
+  position: relative;
+}
+
+h2::after {
+  content: " ";
+  position: absolute;
+  width: 29px;
+  height: 2px;
+  background: black;
+  right: 59px;
+  bottom: -5px;
+}
+
+.promo {
+  font-size: 1rem;
+  color: #21b0a8;
+}
+
+.old-total {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 1.2rem;
+}
+
+.new-total {
+  font-size: 1rem;
+  font-size: 2rem;
+}
