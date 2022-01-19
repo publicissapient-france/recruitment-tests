@@ -1,0 +1,10 @@
+.books-shelf {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1024px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
