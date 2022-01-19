@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { apiCalls, getLocalStorageCart } from "../../utils/api-calls";
-import "./cart-details.css";
+import "./cart-details.scss";
 
 function CartDetails(props) {
   const [bestOffer, setBestOffer] = useState(0);
