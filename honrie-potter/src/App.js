@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import "./App.css";
+import "./App.scss";
 import BooksShelf from "./components/books-shelf/books-shelf";
 import { useState } from "react";
 import CartDetails from "./components/cart-details/cart-details";

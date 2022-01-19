@@ -1,0 +1,88 @@
+.App {
+  position: relative;
+  padding-top: 146px;
+  .notification {
+    position: fixed;
+    top: -10rem;
+    margin: 0 auto;
+    width: 50%;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: limegreen;
+    color: darkblue;
+    margin-top: 1rem;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s all;
+    z-index: 1;
+    &.show {
+      top: 1rem;
+      opacity: 1;
+    }
+    
+  }
+  
+  .App-header {
+    background-color: #1b2744;
+    height: 6.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 1rem 0 0 1rem;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 0;
+  }
+  
+  .cart {
+    display: flex;
+    margin-right: 8px;
+    a {
+      color: #20b1a9;
+      font-size: 1.2rem;
+      margin: 0.7rem 1rem;
+      text-decoration: none;
+    }
+    .cart-count {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 3rem;
+      text-align: center;
+      color: #1b2744;
+      background: #20b1a9;
+      margin-right: 4rem;
+      line-height: 3rem;
+    }
+  }
+
+  
+  .breadcrumbs {
+    display: flex;
+    display: flex;
+    background: #f7f7f7;
+    padding: 1rem;
+    border: 1px solid #f3e9e9;
+    margin: 0 1rem;
+    border-radius: 0.3rem;
+    a {
+      text-decoration: none;
+      color: #1b2744;
+      margin: 0 0.3rem;
+    }
+    .item {
+      display: none;
+      &.active {
+        display: block;
+        color: #20b1a9;
+      }
+    }
+  }
+  
+}
+
+

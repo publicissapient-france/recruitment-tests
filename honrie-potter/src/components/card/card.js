@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./card.css";
+import "./card.scss";
 
 function Card(props) {
   const data = props.data;

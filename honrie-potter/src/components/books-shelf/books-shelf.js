@@ -1,4 +1,4 @@
-import "./books-shelf.css";
+import "./books-shelf.scss";
 import Card from "../card/card";
 import { apiCalls, getLocalStorageCart } from "../../utils/api-calls";
 import { useState } from "react";
