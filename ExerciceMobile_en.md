@@ -7,7 +7,7 @@ All the children in the world found the stories of this teenager fantastic.
 The publisher of this collection, in a huge surge of generosity (but also to boost his sales :wink:),
 decided to set up commercial offers as random as the outcome of Ron Weasley's spells.
 
-The editor asks you to develop an Android or iOS mobile application with two interfaces:
+The editor asks you to develop an Android, iOS or Flutter mobile application with two interfaces:
 
 1. The first one allows you to display the books you want to buy;
 1. The second one summarizes the basket on which __the best commercial offer__ will be applied.
