@@ -7,7 +7,7 @@ Tous les enfants du monde trouvaient les histoires de cet adolescent fantastique
 L’éditeur de cette collection, dans un immense élan de générosité (mais aussi pour booster ses ventes :wink:),
 décida de mettre en place des offres commerciales aussi aléatoires que l’issue des sorts de Ron Weasley.
 
-L’éditeur vous demande de développer une application mobile Android ou iOS comprenant deux interfaces :
+L’éditeur vous demande de développer une application mobile Android, iOS ou Flutter comprenant deux interfaces :
 
 1. La première permet d’afficher les livres que l’on souhaite acheter ;
 1. La seconde récapitule le panier sur lequel sera appliqué __la meilleure offre commerciale__.
